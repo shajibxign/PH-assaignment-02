@@ -1,5 +1,245 @@
 body {
-    font-family: 'Bai Jamjuree', sans-serif;
+    /*font-family: 'Bai Jamjuree', sans-serif;*/
     font-family: 'Poppins', sans-serif;
+    /* padding-left: 100px;
+    padding-right: 100px; */
+    line-height: 28px;
+    letter-spacing: 1px;
+    margin: 0px;
 }
 
+h1 {
+    font-size: 48px;
+}
+h2 {
+    font-size: 28px;
+}
+h3 {
+    font-size: 14px;
+}
+p {
+    font-size: 18px;
+    font-family: 'Bai Jamjuree', sans-serif;font-size: 20px;
+}
+
+/* nav>ul>li {
+    text-decoration: none;
+} */
+
+section {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+a, #send {
+    text-decoration: none;
+    color: white;
+    background-color: #F18618;
+    display: inline-block;
+    margin-top: 24px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transform: scale(1);
+    transition-duration: .2s;
+}
+
+
+a:hover , #send:hover {
+    transform: scale(1.08);
+    transition-duration: 0.2s;
+}
+
+#section-1 {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+#top-right-text {
+    width: 50%;
+    text-align: justify;
+    padding-top: 50px;
+}
+
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      
+    }
+  
+    to {
+      margin-left: 12%;
+    }
+  }
+
+figure img {
+    width: 518px;
+    margin-left: 100px;
+    animation: slidein 3s;
+    transform: scale(1);
+    transition-duration: 2s;
+}
+
+figure img:hover {
+     transform: scale(1.2);
+     transition-duration: 2s;
+}
+
+#section-1 h1 {
+    margin-bottom: 50px;
+}
+
+div img {
+    width: 324px;
+    height: 264px;
+    border-radius: 5px;
+}
+
+#section-2 h1 {
+    font-size: 40px;
+    text-align: center;
+    
+}
+
+.all-products {
+    margin-left: 50px;
+    margin-right: 50px;
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: auto auto auto;
+    padding: 50px;
+}
+  
+.Product {
+    padding:20px;
+    background-color: rgba(188, 246, 253, 0.253);
+    border-radius: 10px;
+    box-shadow:  5px 5px 10px rgba(15, 14, 14, 0.158);
+    transform: scale(1);
+    transition-duration: 2s;
+}
+
+.Product:hover {
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+
+.Product h3 {
+    color: rgb(78, 78, 78);
+}
+
+.Product > h3 {
+    color: rgb(54, 54, 54);
+}
+
+.fas  {
+    font-size: 20px;
+    color: rgb(255, 174, 0);
+}
+
+span  {
+    margin-right: 2px;
+}
+.btn {
+    
+    margin-left: 12px;
+    color: rgb(238, 252, 188);
+}
+
+#section-2 a {
+    float: right;
+    margin-right: 10px;
+}
+
+/* #section-3 > h2 {
+    font-size: 40px;
+    margin-top: 100px;
+    text-align: center;
+} */
+#section-3 {
+    margin-bottom: 80px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#get-in-tch {
+    margin-top: 150px;
+    display: flex;
+}
+
+#msg, #msg-txt {
+    width: 40%;
+}
+
+#msg {
+    padding-left: 50px;
+    padding-top: 50px;
+    background-image: linear-gradient(rgba(168, 225, 253, 0.527),rgba(181, 241, 245, 0.959));
+    box-shadow: 5px 5px 5px rgba(136, 119, 119, 0.253) ;
+    border-radius: 15px;
+    margin-bottom: 50px;
+}
+form input, textarea {
+    border: 0px;
+    border-radius: 3px;
+    font-size: 20px;
+    background-color:rgb(255, 255, 255) ;
+    width: 70%;
+}
+textarea {
+    font-size: 14px;
+    width: 89%;
+}
+#email {
+    margin-left: 39px;
+}
+
+#fname {
+    margin-left: 37px;
+}
+#send {
+    margin-left: 50px;
+}
+#msg-txt {
+    margin-top: 30px;
+    margin-left: 100px;
+    text-align: justify;
+}
+#msg-txt > h2 {
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+footer {
+    background-color: rgb(4, 10, 41);
+    text-align: center;
+}
+
+footer div {
+    padding: 4px;
+}
+
+footer div p {
+    font-size: 14px;
+    color: rgb(228, 243, 188);
+    margin: 0px;
+    line-height: 18px;
+}
+
+footer h3 {
+    color: rgb(255, 230, 4);
+    margin-bottom: 8px;
+    font-size: 28px;
+    letter-spacing: 1.5px;
+}
+.fa-copyright {
+    color: rgb(253, 250, 200);
+}
+#social i {
+    text-align: center;
+    font-size: larger;
+    color: rgb(253, 253, 253);
+    margin-top: 20px;
+    /* margin-left: 20px; */
+    margin: 14px;
+ }
