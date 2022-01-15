@@ -18,8 +18,8 @@ h3 {
     font-size: 14px;
 }
 p {
-    font-size: 18px;
-    font-family: 'Bai Jamjuree', sans-serif;font-size: 20px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 20px;
 }
 
 /* nav>ul>li {
@@ -57,7 +57,7 @@ a:hover , #send:hover {
 }
 
 #top-right-text {
-    width: 50%;
+    width: 70%;
     text-align: justify;
     padding-top: 50px;
 }
@@ -69,12 +69,12 @@ a:hover , #send:hover {
     }
   
     to {
-      margin-left: 12%;
+      margin-left: 10%;
     }
   }
 
 figure img {
-    width: 518px;
+    width: 418px;
     margin-left: 100px;
     animation: slidein 3s;
     transform: scale(1);
@@ -91,9 +91,11 @@ figure img:hover {
 }
 
 div img {
+    display: inline-block;
     width: 324px;
     height: 264px;
     border-radius: 5px;
+    text-align: center;
 }
 
 #section-2 h1 {
@@ -103,8 +105,9 @@ div img {
 }
 
 .all-products {
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-top: 50px;
+    margin-left: 30px;
+    /* margin-right: 50px; */
     display: grid;
     grid-gap: 50px;
     grid-template-columns: auto auto auto;
@@ -112,10 +115,10 @@ div img {
 }
   
 .Product {
-    padding:20px;
+    padding:20px 20px 20px 20px;
     background-color: rgba(188, 246, 253, 0.253);
     border-radius: 10px;
-    box-shadow:  5px 5px 10px rgba(15, 14, 14, 0.158);
+    box-shadow: 5px 5px 10px rgba(15, 14, 14, 0.158);
     transform: scale(1);
     transition-duration: 2s;
 }
@@ -142,14 +145,19 @@ span  {
     margin-right: 2px;
 }
 .btn {
-    
-    margin-left: 12px;
+
+    display: inline;
+    padding-left: 10px;
+    /* margin-right: 50px; */
     color: rgb(238, 252, 188);
+
 }
 
 #section-2 a {
+    display: block;
+    margin-right: 50px;
+    color: rgb(238, 252, 188);
     float: right;
-    margin-right: 10px;
 }
 
 /* #section-3 > h2 {
