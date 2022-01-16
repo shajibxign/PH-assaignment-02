@@ -1,7 +1,137 @@
 @media screen and (max-width: 640px) {
 
+    body {
+        letter-spacing: normal;
+        margin: 0px;
+    }
     h1 {
+        font-size: 24px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    h3 {
         font-size: 18px;
-        color: darkmagenta;
+    }
+    p {
+        font-size: 18px;
+    }
+    section {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    
+    #section-1 {
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+    #top-right-text {
+        width: 100%;
+        text-align: justify;
+        padding-top: 0px;
+    }
+    figure img {
+        width: 100%;
+        margin: 0px;
+        margin-top: 80px;
+    }
+    #section-1 h1 {
+        margin-bottom:44px;
+    }
+    div img {
+    width: 324px;
+    height: 264px;
+    border-radius: 5px;
+    }
+
+    #section-2 h1 {
+        font-size: 38px;
+        text-align: center;
+        
+    }
+
+    .all-products {
+        margin-left: 10px;
+        margin-right: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        /* grid-gap: 50px;
+        grid-template-columns: repeat(2, 1fr); */
+        padding: 0px;
+    }
+    
+    .fas  {
+        font-size: 18px;
+    }
+
+    #section-2 a {
+        float: none;
+        display: block;
+        width: 25%;
+        margin: auto;
+        margin-top: 50px;
+        
+    }
+    #get-in-tch {
+        margin-top: 150px;
+        display: block;
+    }
+    
+    #msg, #msg-txt {
+        width: 100%;
+    }   
+    #msg {
+        padding: 32px 32px 18px 32px;
+        margin-bottom: 50px;
+    }
+    form input, textarea {
+        border-radius: 3px;
+        font-size: 18px;
+    }
+    textarea {
+        font-size: 14px;
+        width: 98%;
+    }
+    #email {
+        margin-left: 40px;
+    }
+    
+    #send {
+        margin-left: 50px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    #msg-txt {
+        margin-top: 0px;
+        margin-left: 0px;
+        text-align: justify;
+    }
+    #msg-txt > h2 {
+        font-size: 34px;
+        margin-bottom: 34px;
+    }
+    footer div {
+        padding: 2px;
+        margin: 0px;
+    }
+    
+    footer div p {
+        font-size: 12px;
+        letter-spacing: 1.3px;
+    }
+    
+    footer h3 {
+        font-size: 24px;
+    }
+    .fa-copyright {
+        color: rgb(219, 209, 4);
+    }
+    #social i {
+        font-size: large;
+        margin-top: 18px;
+        /* margin-left: 20px; */
+        margin: 10px;
     }
 }
